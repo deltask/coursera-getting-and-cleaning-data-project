@@ -1,5 +1,6 @@
 # Getting and cleaning data 
 Course Project
+
 The R script runanalysis.r does the following:
 
 1)Download the dataset if not already present in Working Directory
