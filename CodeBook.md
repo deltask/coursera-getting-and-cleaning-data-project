@@ -6,86 +6,86 @@ activity :- The type of activity for which values are measured
 
 MEASUREMENTS
 
+timeBodyAccelerometerMeanX
+* timeBodyAccelerometerMeanY
+* timeBodyAccelerometerMeanZ
+* timeBodyAccelerometerStandardDeviationX
+* timeBodyAccelerometerStandardDeviationY
+* timeBodyAccelerometerStandardDeviationZ
+* timeGravityAccelerometerMeanX
+* timeGravityAccelerometerMeanY
+* timeGravityAccelerometerMeanZ
+* timeGravityAccelerometerStandardDeviationX
+* timeGravityAccelerometerStandardDeviationY
+* timeGravityAccelerometerStandardDeviationZ
+* timeBodyAccelerometerJerkMeanX
+* timeBodyAccelerometerJerkMeanY
+* timeBodyAccelerometerJerkMeanZ
+* timeBodyAccelerometerJerkStandardDeviationX
+* timeBodyAccelerometerJerkStandardDeviationY
+* timeBodyAccelerometerJerkStandardDeviationZ
+* timeBodyGyroscopeMeanX
+* timeBodyGyroscopeMeanY
+* timeBodyGyroscopeMeanZ
+* timeBodyGyroscopeStandardDeviationX
+* timeBodyGyroscopeStandardDeviationY
+* timeBodyGyroscopeStandardDeviationZ
+* timeBodyGyroscopeJerkMeanX
+* timeBodyGyroscopeJerkMeanY
+* timeBodyGyroscopeJerkMeanZ
+* timeBodyGyroscopeJerkStandardDeviationX
+* timeBodyGyroscopeJerkStandardDeviationY
+* timeBodyGyroscopeJerkStandardDeviationZ
+* timeBodyAccelerometerMagnitudeMean
+* timeBodyAccelerometerMagnitudeStandardDeviation
+* timeGravityAccelerometerMagnitudeMean
+* timeGravityAccelerometerMagnitudeStandardDeviation
+* timeBodyAccelerometerJerkMagnitudeMean
+* timeBodyAccelerometerJerkMagnitudeStandardDeviation
+* timeBodyGyroscopeMagnitudeMean
+* timeBodyGyroscopeMagnitudeStandardDeviation
+* timeBodyGyroscopeJerkMagnitudeMean
+* timeBodyGyroscopeJerkMagnitudeStandardDeviation
+* frequencyBodyAccelerometerMeanX
+* frequencyBodyAccelerometerMeanY
+* frequencyBodyAccelerometerMeanZ
+* frequencyBodyAccelerometerStandardDeviationX
+* frequencyBodyAccelerometerStandardDeviationY
+* frequencyBodyAccelerometerStandardDeviationZ
+* frequencyBodyAccelerometerMeanFreqX
+* frequencyBodyAccelerometerMeanFreqY
+* frequencyBodyAccelerometerMeanFreqZ
+* frequencyBodyAccelerometerJerkMeanX
+* frequencyBodyAccelerometerJerkMeanY
+* frequencyBodyAccelerometerJerkMeanZ
+* frequencyBodyAccelerometerJerkStandardDeviationX
+* frequencyBodyAccelerometerJerkStandardDeviationY
+* frequencyBodyAccelerometerJerkStandardDeviationZ
+* frequencyBodyAccelerometerJerkMeanFreqX
+* frequencyBodyAccelerometerJerkMeanFreqY
+* frequencyBodyAccelerometerJerkMeanFreqZ
+* frequencyBodyGyroscopeMeanX
+* frequencyBodyGyroscopeMeanY
+* frequencyBodyGyroscopeMeanZ
+* frequencyBodyGyroscopeStandardDeviationX
+* frequencyBodyGyroscopeStandardDeviationY
+* frequencyBodyGyroscopeStandardDeviationZ
+* frequencyBodyGyroscopeMeanFreqX
+* frequencyBodyGyroscopeMeanFreqY
+* frequencyBodyGyroscopeMeanFreqZ
+* frequencyBodyAccelerometerMagnitudeMean
+* frequencyBodyAccelerometerMagnitudeStandardDeviation
+* frequencyBodyAccelerometerMagnitudeMeanFreq
+* frequencyBodyBodyAccelerometerJerkMagnitudeMean
+* frequencyBodyBodyAccelerometerJerkMagnitudeStandardDeviation
+* frequencyBodyBodyAccelerometerJerkMagnitudeMeanFreq
+* frequencyBodyBodyGyroscopeMagnitudeMean
+* frequencyBodyBodyGyroscopeMagnitudeStandardDeviation
+* frequencyBodyBodyGyroscopeMagnitudeMeanFreq
+* frequencyBodyBodyGyroscopeJerkMagnitudeMean
+* frequencyBodyBodyGyroscopeJerkMagnitudeStandardDeviation
+* frequencyBodyBodyGyroscopeJerkMagnitudeMeanFreq
 
-tBodyAccMeanX
-tBodyAccMeanY
-tBodyAccMeanZ
-tBodyAccStdX
-tBodyAccStdY
-tBodyAccStdZ
-tGravityAccMeanX
-tGravityAccMeanY
-tGravityAccMeanZ
-tGravityAccStdX
-tGravityAccStdY
-tGravityAccStdZ
-tBodyAccJerkMeanX
-tBodyAccJerkMeanY
-tBodyAccJerkMeanZ
-tBodyAccJerkStdX
-tBodyAccJerkStdY
-tBodyAccJerkStdZ
-tBodyGyroMeanX
-tBodyGyroMeanY
-tBodyGyroMeanZ
-tBodyGyroStdX
-tBodyGyroStdY
-tBodyGyroStdZ
-tBodyGyroJerkMeanX
-tBodyGyroJerkMeanY
-tBodyGyroJerkMeanZ
-tBodyGyroJerkStdX
-tBodyGyroJerkStdY
-tBodyGyroJerkStdZ
-tBodyAccMagMean
-tBodyAccMagStd
-tGravityAccMagMean
-tGravityAccMagStd
-tBodyAccJerkMagMean
-tBodyAccJerkMagStd
-tBodyGyroMagMean
-tBodyGyroMagStd
-tBodyGyroJerkMagMean
-tBodyGyroJerkMagStd
-fBodyAccMeanX
-fBodyAccMeanY
-fBodyAccMeanZ
-fBodyAccStdX
-fBodyAccStdY
-fBodyAccStdZ
-fBodyAccMeanFreqX
-fBodyAccMeanFreqY
-fBodyAccMeanFreqZ
-fBodyAccJerkMeanX
-fBodyAccJerkMeanY
-fBodyAccJerkMeanZ
-fBodyAccJerkStdX
-fBodyAccJerkStdY
-fBodyAccJerkStdZ
-fBodyAccJerkMeanFreqX
-fBodyAccJerkMeanFreqY
-fBodyAccJerkMeanFreqZ
-fBodyGyroMeanX
-fBodyGyroMeanY
-fBodyGyroMeanZ
-fBodyGyroStdX
-fBodyGyroStdY
-fBodyGyroStdZ
-fBodyGyroMeanFreqX
-fBodyGyroMeanFreqY
-fBodyGyroMeanFreqZ
-fBodyAccMagMean
-fBodyAccMagStd
-fBodyAccMagMeanFreq
-fBodyBodyAccJerkMagMean
-fBodyBodyAccJerkMagStd
-fBodyBodyAccJerkMagMeanFreq
-fBodyBodyGyroMagMean
-fBodyBodyGyroMagStd
-fBodyBodyGyroMagMeanFreq
-fBodyBodyGyroJerkMagMean
-fBodyBodyGyroJerkMagStd
-fBodyBodyGyroJerkMagMeanFreq
 
 #Activity Labels
 WALKING (value 1): subject was walking during the test
